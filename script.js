@@ -11,7 +11,7 @@ const sortedBands = bands.sort((a, b) => {
 });
 
 // Create an unordered list and append sorted bands
-const ul = document.getElementById('band');
+const ul = document.getElementById('bands');
 
 sortedBands.forEach(band => {
     const li = document.createElement('li');
